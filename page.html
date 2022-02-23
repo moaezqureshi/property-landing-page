@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com/1366x600"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@200;400&family=Fira+Sans:wght@100;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="input.css">
+    <title>Wyndham Grand residence</title>
+    <style>
+        .hero-image {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Images/first-bg.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 500px;
+            background-size: 100% 600px;
+        }
+        #mobile-menu {
+            transition-property: transform;
+            transition-duration: 300ms;
+        }
+        </style>
+    
+</head>
+
+
+<body>
+    <nav class="sticky z-50 top-0 bg-gray-100 px-4 lg:px-12 lg:flex lg:items-center md:justify-between py-2 lg:justify-between flex-row flex-nowrap">
+        <div class="flex justify-between">
+            <a href="page.html" class="mr-2 py-1"><img src="/Images/Novyy_Logo_Reverse_Blue-N1@2x.png" alt="Logo" class="w-14"></a>
+            
+                
+                    <button class="lg:hidden " id="mobile-menu-button" onclick="show()" >
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-14 w-14 rounded border-2 border-slate-300 px-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                          </svg>
+                    </button>
+                
+            
+            </div>
+        <div class="hidden lg:block " id="mobile-menu">
+            <ul class="lg:flex font-normal" style="font-family: 'Blinker', sans-serif;">
+                <li class="lg:pl-6"><a href="#overview" class="lg:p-5">OVERVIEW</a></li>
+                <li class="lg:pl-6"><a href="#key-features" class="lg:p-5">KEY FEATURES</a></li>
+                <li class="lg:pl-6"><a href="#buy-options" class="lg:p-5">BUYING OPTIONS</a></li>
+                <li class="lg:pl-6"><a href="#enquiry" class="lg:p-5">ENQUIRE NOW</a></li>
+            </ul>
+        </div>
+        
+    </nav>
+    <div class="px-8 lg:px-12 hero-image bg-no-repeat flex items-center ">
+        <div class=" text-white  lg:w-1/2 absolute py-16 ">
+            <h1 class="text-4xl font-bold lg:text-6xl lg:font-normal lg:mb-7" style="font-family: 'Fira sans', sans-serif;">Wyndham Grand Residences</h1>
+            <p class="text-xl lg:text-2xl mt-7">QUINTA DO LAGO, ALGARVE, PORTUGAL</p>
+            <p class="text-xl lg:text-2xl mt-7">Portugal Golden Visa Qualifying Investment Opportunities From 500,000 Euros</p>
+            <button class="mt-8 rounded px-12 text-xl py-4 bg-red-500">I'M Interested</button>
+        </div>
+    </div>
+    <div class="text-base font-blinker flex justify-center py-4 lg:text-3xl text-white" style="background-color: rgba(0,195,227,0.9)">
+        <h1>PORTUGAL GOLDEN VISA QUALIFYING</h1>
+    </div>
+    <div class="px-4 lg:px-12">
+        <section class="pt-20">
+            <div class="lg:grid grid-cols-2">
+                <div class="mb-2">
+                    <h1 class="text-[40px] leading-10 font-Fira-sans font-normal">Little Luxuries, Grand Getaway</h1>
+                </div>
+                <div class="font-normal text-justify  mb-2 text-black text-xl" style="font-family: 'Blinker', sans-serif;">
+                    The latest addition of branded residences on the beautiful southern coast of the Algarve, the
+                    development of Wyndham Grand Algarve Residences is an elegant yet stylish collection of 132
+                    properties ready to move in. Taking centre stage in the luxurious Quinta do Lago resort, the
+                    development offers residents an unrivalled location alongside one of the best climates in Europe, as
+                    well as a wide range of indoor and outdoor leisure activities in a warm and welcoming local
+                    community. Close to beautiful beaches and exceptional golf courses, the development and location is
+                    the ultimate destination for lifestyle in the Algarve, allowing residents to relax with convenience,
+                    exclusivity and privacy.
+                </div>
+            </div>
+            <div class="lg:grid grid-cols-4 " style="padding-top: 5%;">
+                <div class="py-4 lg:pr-8 w-full ">
+                    <img src="/Images/pic-1.png" alt=""
+                        class="shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] h-80 object-cover w-full">
+                </div>
+                <div class="py-4 lg:pr-8  w-full">
+                    <img src="/Images/pic-2.png" alt=""
+                        class="shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] h-80 object-cover w-full ">
+                </div>
+                <div class="py-4 lg:pr-8  w-full">
+                    <img src="/Images/pic-3.png" alt=""
+                        class="shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] h-80 object-cover w-full ">
+                </div>
+                <div class="py-4 lg:pr-5 w-full">
+                    <img src="/Images/pic-4.png" alt=""
+                        class="shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] h-80 object-cover w-full ">
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="mt-10 text-4xl flex justify-between">
+                <h2 class="block text-[40px] leading-tight font-medium font-Fira-sans">
+                    Wyndham Grand Algarve Residences
+                </h2>
+            </div>
+            <div class="block lg:flex pr-4 text-center font-sans justify-between flex-row lg:mb-20">
+                <div class="flex md:mt-80 flex-col content-center items-center py-7">
+                    <img src="/Images/sec-pic-1.png" alt="" class="block shadow-[0_25px_50px_rgba(0,0,0,0.3)] lg:w-72"
+                        style="height: 673px;">
+                    <h4 class="text-2xl font-medium font-Fira-sans pt-3 mb-1 ">Well Designed Living</h4>
+                    <p class="text-base font-extrabold font-blinker">Open Plan Living & Uninterrupted Space</p>
+                </div>
+                <div class="flex md:mt-40 flex-col content-center items-center py-7">
+                    <img src="/Images/sec-pic-2.png" alt=""
+                        class=" shadow-[0_25px_50px_rgba(0,0,0,0.3)] object-cover lg:w-72" style="height: 673px;">
+                    <h4 class="text-2xl font-bold pt-3 mb-3 ">Award Winning Location</h4>
+                    <p class="text-base font-extrabold font-blinker">Quinta do Lago, Algarve, Portugal</p>
+                </div>
+                <div class="flex flex-col content-center items-center py-7">
+                    <img src="/Images/sec-pic-3.png" alt=""
+                        class=" shadow-[0_25px_50px_rgba(0,0,0,0.3)] object-cover lg:w-72" style="height: 673px;">
+                    <h4 class="text-2xl font-bold pt-3 mb-3">Exclusive Amenities</h4>
+                    <p class="text-base font-extrabold font-blinker ">5 Distinctive Dining & Lounge Experiences</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="lg:block bg-gray-300 py-10 px-4 lg:px-12 " id="buy-options">
+        <div class="flex flex-col items-center justify-center">
+            <h2 class="text-[40px] font-medium font-Fira-sans">Buying Options</h2>
+            <span class="text-gray-700 text-xl font-blinker opacity-50">ONLY ON NOVYY.COM</span>
+        </div>
+        <div class="flex flex-col flex-wrap lg:flex-row items-center lg:items-start lg:justify-between pt-4">
+            <div class="flex py-5 lg:py-0 flex-col w-96  rounded text-center">
+                <div class="bg-red-600 text-white text-2xl font-medium p-6">
+                    <h2 class="font-Fira-sans text-3xl">Real Estate</h2>
+                </div>
+                <div class="text-center bg-white">
+                    <p class="p-5 font-blinker text-xl leading-9">1-Bed, 2-Bath, 79-87sq.m. Residences starting at 534,000 €
+                        42.5% Revenue Share with 4% Minimum Guarantee for 5 Years
+                        Up to 12 Weeks Annual Use for You, Your Family and Guests
+                        Eligible for Portugal Golden Visa
+                        70% Mortage for EU / non-Golden Visa Customers
+                    </p>
+                </div>
+            </div>
+            <div class="flex py-5 lg:py-0 flex-col w-full sm:w-96 rounded text-center">
+                <div class="bg-red-600 text-white text-2xl font-medium p-6">
+                    <h2 class="font-Fira-sans text-3xl">Investment Fund Option</h2>
+                </div>
+                <div class="text-center bg-white">
+                    <p class="p-5 font-blinker text-xl leading-9">500,000 € in a CMVM Regulated FCR - Investment Fund
+                        Choose between Yield and Growth Investment Classes
+                        Eligible for Portugal Golden Visa if Investment is held for 5 Years
+                        Up to 2 Weeks Annual Use for Investors and their Families
+                        Easy Exit after 5 Years
+                    </p>
+                </div>
+            </div>
+            <div class="flex py-5 lg:py-0 flex-col w-96 flex-wrap xl:pr-5 rounded text-center">
+                <div class="bg-red-600 text-white text-2xl font-medium p-6">
+                    <h2 class="font-Fira-sans text-3xl">Holiday Home Co-Buy</h2>
+                </div>
+                <div class="text-center bg-white ">
+                    <p class="p-5 font-blinker text-xl leading-8">Luxury Holiday Home in the heart of Algarve Golfing District
+                        2-Bed, 2-Bath, 1205 Sq.Ft. Apartments
+                        20% Share of freehold from €196,860 - higher shares available
+                        Usage of 10 weeks / year for you and your direct guests
+                        Fully managed and served by Wyndham, monthly expenses apply
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="py-10 md:py-16 px-4 lg:px-12" id="enquiry">
+        <div class="lg:flex pr-5">
+            <div class="md:w-1/2 mb-6 md:mb-6 md:pr-20">
+                <h2 class="text-4xl font-semibold">Portugal Golden Visa</h2>
+                <h4 class="text-2xl my-6">Unfettered Access to Europe</h4>
+                <p class="text-xl tracking-tighter text-justify">Portugal's Golden Visa program has been one of the most
+                    popular investment-based residence option via which, an investor buying a property worth at least
+                    500 thousand Euros or investing at least 500 thousand Euros in a Regulated Investment Fund, is
+                    entitled for residence rights in Portugal alongwith their family members. With this project being
+                    available with both Real Estate and Investment Fund options, you can choose what works best for your
+                    circumstances. If you are likely to spend 12 or more weeks in Portugal, we recommend the Real Estate
+                    option. With over 40% sold, we have helped tens of families realise their European Dream! Are you
+                    the next one?</p>
+
+            </div>
+            <div class="bg-gray-300 md:w-1/2 flex  content-center rounded-lg mt-5 md:mt-0 md:ml-12">
+                <div class="p-4 md:p-10 w-full flex flex-col items-center">
+                    <h1 class="text-4xl text-center font-Fira-sans font-normal mb-6">Want to learn more?</h1>
+                    <form action="#" class="block w-full text-black">
+                        <input type="text" name="" id="name" placeholder="Name"
+                            class="w-full h-11 p-3 mb-5 rounded border-0 border-white">
+                        <input type="email" name="" id="email" placeholder="Email"
+                            class="w-full h-11 p-3 mb-5 rounded border-0 border-white">
+                        <input type="tel" name="" id="telephone" placeholder="telephone Number"
+                            class="w-full mb-5 h-11 p-3 rounded border-0 border-white">
+                        <select name="interest" id="interest" class="w-full mb-5 h-11 p-3 rounded text-gray-500"
+                            aria-placeholder="please select a option">
+                            <option selected>Please select a option</option>
+                            <option value="Real Estate">Real Estate</option>
+                            <option value="Investment Fund Options">Investment Fund Options</option>
+                            <option value="Holiday Home Co-Buy">Holiday Home Co-Buy</option>
+                        </select>
+                    </form>
+                    <div class="w-full flex justify-center items-center">
+                        <span class="md:w-1/2 bg-cyan-500 rounded px-5 text-center py-4 text-white text-normal font-semibold cursor-pointer">REQUEST INFORMATION</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="px-4 lg:px-12 my-10 md:my-20" id="overview">
+        <div class="flex flex-col content-center text-center justify-center items-center mb-10">
+            <div class="flex flex-col items-center md:w-4/5">
+                <h1 class="text-[40px] leading-tight tracking-tighter font-Fira-sans mb-9 ">Wyndham Grand Algarve Residences Overview</h1>
+                <p class="text-xl tracking-widest md:tracking-tighter font-blinker text-center">Comprising an exclusive collection of 132 private
+                    residences ranging from 1, 2 and 3 bedroom apartments, every property has been designed and fitted
+                    to the highest specification, all opening up onto a spacious terrace or balcony. Wyndham Grand
+                    Algarve Residences also offers distinctive services from attentive staff, as well as outstanding
+                    amenities within the resort allowing all residents to enjoy unparalleled access to a lifestyle of
+                    fitness, wellness and comfort.</p>
+            </div>
+        </div>
+        <div class="md:px-16 md:w-full md:h-screen" >
+            <div class="h-full  md:p-12">
+                <div class="h-full"><iframe src="https://www.youtube.com/embed/bvO3Rbs2QqQ" frameborder="0"
+                        class="w-96 h-96 md:w-full md:h-full"></iframe></div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-gray-300 flex flex-col items-center py-12">
+        <h3 class="text-[1.75rem] text-center font-blinker opacity-100">Quinta do Lago, Algarve, Portugal</h3>
+        <h1 class="text-[40px] font-Fira-sans ">Inspired Living</h1>
+        <span class="py-4 rounded text-white px-10 bg-cyan-500 mt-5">FIND OUT MORE</span>
+    </div>
+
+
+    <div class="my-32 h-full ">
+        <div class="md:grid grid-col-4 justify-items-stretch grid-flow-row-dense gap-2 px-4 lg:px-12">
+            <div class="row-span-2 py-7 md:py-0">
+                <img src="/Images/grid-pic-1.png" class="h-96 w-full md:h-full md:w-full shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]" alt="">
+            </div>
+            <div class="row-span-2 col-span-3 md:grid gap-3 justify-items-stretch md:px-5 grid-cols-3">
+                <div class="col-span-2  py-7 md:py-0">
+                    <img src="/Images/grid-pic-3.png" class="h-96 w-full md:h-full shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]" alt="">
+                </div>
+                <div class="md:mr-3  py-7 md:py-0">
+                    <img src="/Images/grid-pic-5.png" class="h-96 w-full md:h-full md:w-full md:ml-3 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]" alt="">
+                </div>
+                <div class="pt-2 py-7 md:py-0">
+                    <img src="/Images/grid-pic-2.png" class="h-96 w-full md:h-full md:w-full shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]" alt="">
+                </div>
+                <div class="col-span-2 md:pt-2 py-7 md:py-0 md:mr-3">
+                    <img src="/Images/grid-pic-4.png" class="h-96 w-full md:w-full md:ml-3 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]" alt="">
+                </div>
+            </div>
+            <div class="col-span-4 mt-5 md:grid grid-flow-row gap-2 justify-items-stretch grid-cols-4 h-full">
+                <div class="md:mr-3 py-7 md:py-0"><img src="/Images/grid-pic-6.png"
+                        class="h-96 w-full md:h-full md:w-full shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]  " alt=""></div>
+                <div class=" md:ml-2 py-7 md:py-0"><img src="/Images/grid-pic-7.png"
+                        class="h-96 w-full md:h-full md:w-full shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]" alt=""></div>
+                <div class=" md:ml-3 py-7 md:py-0"><img src="/Images/grid-pic-8.png"
+                        class="h-96 w-full md:h-full md:w-full shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]" alt=""></div>
+                <div class=" md:mx-5 pt-7 md:pt-0"><img src="/Images/grid-pic-9.png"
+                        class="h-96 w-full md:h-full md:w-full shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <div class="md:flex mt-3 mb-20 px-4 lg:px-12 justify-between" id="key-features">
+        <div class="md:w-1/3">
+            <h1 class="text-3xl font-Fira-sans ">Quinta do Lago, Algarve, Portugal</h1>
+            <h3 class="text-3xl font-blinker mt-4 ">Inspired Living, Secured Investment</h3>
+        </div>
+        <div class="mt-7 md:mt-0">
+            <div class="bg-red-500 text-center rounded-t">
+                <h1 class="text-2xl  px-20  py-3 text-white">Key Features</h1>
+            </div>
+            <div class="bg-gray-300 px-8 py-4 rounded">
+                <div class="p-8">
+                    <ul class="text-lg font-semibold list-disc">
+                        <li>Luxurious Resort Location</li>
+                        <li>High Quality Finishing's</li>
+                        <li>Housekeeping Services</li>
+                        <li>ndoor & Outdoor Parking</li>
+                        <li>Air Conditioned</li>
+                        <li>Concierge Team</li>
+                        <li>Garden Views</li>
+                        <li>Golden Visa Eligible</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="md:mx-4 mt-4 md:mt-0">
+            <div class="bg-red-500 text-center rounded-t">
+                <h1 class="text-2xl px-20  py-3 text-white">Amenities</h1>
+            </div>
+            <div class="bg-gray-300 px-8 py-4 rounded">
+                <div class="p-8">
+                    <ul class="text-lg font-semibold list-disc">
+                        <li>Health and Fitness Club</li>
+                        <li>Residents Gym</li>
+                        <li>Leisure Facilities</li>
+                        <li>Executive Lounge</li>
+                        <li>Kid's Club</li>
+                        <li>Conference Rooms</li>
+                        <li>Swimming pools & spa</li>
+                        <li>Golf Complex</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mt-12">
+        <div id="checkout" class="flex flex-col text-white h-96 justify-center  items-center">
+            <h1 class="text-white text-[52px] leading-tight my-5  font-semibold text-center">Looking for something else?</h1>
+            <span class="text-2xl text-center font-blinker">Explore Other Properties In Portugal On Novyy Below</span>
+            <a href="" class="text-center bg-cyan-500 rounded my-6 px-4 lg:px-12 py-3 font-semibold hover:text-black ">SEE OTHER OPTIONS</a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="flex bg-cyan-400 justify-center py-3">
+            <span class="text-white text-xl font-semibold">@ 2021 Novyy</span>
+
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
